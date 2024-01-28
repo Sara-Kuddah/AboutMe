@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF191082B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191072B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift */; };
+		4DF1910A2B66AB6A00FC64DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191092B66AB6A00FC64DA /* ContentView.swift */; };
+		4DF1910C2B66AB6B00FC64DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1910B2B66AB6B00FC64DA /* Assets.xcassets */; };
+		4DF1910F2B66AB6B00FC64DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1910E2B66AB6B00FC64DA /* Preview Assets.xcassets */; };
+		4DF191192B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191182B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift */; };
+		4DF191232B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191222B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift */; };
+		4DF191252B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191242B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF191152B66AB6B00FC64DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF190FC2B66AB6A00FC64DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF191032B66AB6A00FC64DA;
+			remoteInfo = "Sara Khalid Bin kuddah";
+		};
+		4DF1911F2B66AB6B00FC64DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF190FC2B66AB6A00FC64DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF191032B66AB6A00FC64DA;
+			remoteInfo = "Sara Khalid Bin kuddah";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DF191042B66AB6A00FC64DA /* Sara Khalid Bin kuddah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sara Khalid Bin kuddah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF191072B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sara_Khalid_Bin_kuddahApp.swift; sourceTree = "<group>"; };
+		4DF191092B66AB6A00FC64DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DF1910B2B66AB6B00FC64DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF1910E2B66AB6B00FC64DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DF191142B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sara Khalid Bin kuddahTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF191182B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sara_Khalid_Bin_kuddahTests.swift; sourceTree = "<group>"; };
+		4DF1911E2B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sara Khalid Bin kuddahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF191222B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sara_Khalid_Bin_kuddahUITests.swift; sourceTree = "<group>"; };
+		4DF191242B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF191012B66AB6A00FC64DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF191112B66AB6B00FC64DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF1911B2B66AB6B00FC64DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF190FB2B66AB6A00FC64DA = {
+			isa = PBXGroup;
+			children = (
+				4DF191062B66AB6A00FC64DA /* Sara Khalid Bin kuddah */,
+				4DF191172B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests */,
+				4DF191212B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests */,
+				4DF191052B66AB6A00FC64DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF191052B66AB6A00FC64DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF191042B66AB6A00FC64DA /* Sara Khalid Bin kuddah.app */,
+				4DF191142B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests.xctest */,
+				4DF1911E2B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF191062B66AB6A00FC64DA /* Sara Khalid Bin kuddah */ = {
+			isa = PBXGroup;
+			children = (
+				4DF191072B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift */,
+				4DF191092B66AB6A00FC64DA /* ContentView.swift */,
+				4DF1910B2B66AB6B00FC64DA /* Assets.xcassets */,
+				4DF1910D2B66AB6B00FC64DA /* Preview Content */,
+			);
+			path = "Sara Khalid Bin kuddah";
+			sourceTree = "<group>";
+		};
+		4DF1910D2B66AB6B00FC64DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1910E2B66AB6B00FC64DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DF191172B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF191182B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift */,
+			);
+			path = "Sara Khalid Bin kuddahTests";
+			sourceTree = "<group>";
+		};
+		4DF191212B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF191222B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift */,
+				4DF191242B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift */,
+			);
+			path = "Sara Khalid Bin kuddahUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF191032B66AB6A00FC64DA /* Sara Khalid Bin kuddah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF191282B66AB6B00FC64DA /* Build configuration list for PBXNativeTarget "Sara Khalid Bin kuddah" */;
+			buildPhases = (
+				4DF191002B66AB6A00FC64DA /* Sources */,
+				4DF191012B66AB6A00FC64DA /* Frameworks */,
+				4DF191022B66AB6A00FC64DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sara Khalid Bin kuddah";
+			productName = "Sara Khalid Bin kuddah";
+			productReference = 4DF191042B66AB6A00FC64DA /* Sara Khalid Bin kuddah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF191132B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF1912B2B66AB6B00FC64DA /* Build configuration list for PBXNativeTarget "Sara Khalid Bin kuddahTests" */;
+			buildPhases = (
+				4DF191102B66AB6B00FC64DA /* Sources */,
+				4DF191112B66AB6B00FC64DA /* Frameworks */,
+				4DF191122B66AB6B00FC64DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF191162B66AB6B00FC64DA /* PBXTargetDependency */,
+			);
+			name = "Sara Khalid Bin kuddahTests";
+			productName = "Sara Khalid Bin kuddahTests";
+			productReference = 4DF191142B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DF1911D2B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF1912E2B66AB6B00FC64DA /* Build configuration list for PBXNativeTarget "Sara Khalid Bin kuddahUITests" */;
+			buildPhases = (
+				4DF1911A2B66AB6B00FC64DA /* Sources */,
+				4DF1911B2B66AB6B00FC64DA /* Frameworks */,
+				4DF1911C2B66AB6B00FC64DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF191202B66AB6B00FC64DA /* PBXTargetDependency */,
+			);
+			name = "Sara Khalid Bin kuddahUITests";
+			productName = "Sara Khalid Bin kuddahUITests";
+			productReference = 4DF1911E2B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF190FC2B66AB6A00FC64DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4DF191032B66AB6A00FC64DA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4DF191132B66AB6B00FC64DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4DF191032B66AB6A00FC64DA;
+					};
+					4DF1911D2B66AB6B00FC64DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4DF191032B66AB6A00FC64DA;
+					};
+				};
+			};
+			buildConfigurationList = 4DF190FF2B66AB6A00FC64DA /* Build configuration list for PBXProject "Sara Khalid Bin kuddah" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF190FB2B66AB6A00FC64DA;
+			productRefGroup = 4DF191052B66AB6A00FC64DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF191032B66AB6A00FC64DA /* Sara Khalid Bin kuddah */,
+				4DF191132B66AB6B00FC64DA /* Sara Khalid Bin kuddahTests */,
+				4DF1911D2B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF191022B66AB6A00FC64DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF1910F2B66AB6B00FC64DA /* Preview Assets.xcassets in Resources */,
+				4DF1910C2B66AB6B00FC64DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF191122B66AB6B00FC64DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF1911C2B66AB6B00FC64DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF191002B66AB6A00FC64DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF1910A2B66AB6A00FC64DA /* ContentView.swift in Sources */,
+				4DF191082B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF191102B66AB6B00FC64DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF191192B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF1911A2B66AB6B00FC64DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF191232B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift in Sources */,
+				4DF191252B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF191162B66AB6B00FC64DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF191032B66AB6A00FC64DA /* Sara Khalid Bin kuddah */;
+			targetProxy = 4DF191152B66AB6B00FC64DA /* PBXContainerItemProxy */;
+		};
+		4DF191202B66AB6B00FC64DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF191032B66AB6A00FC64DA /* Sara Khalid Bin kuddah */;
+			targetProxy = 4DF1911F2B66AB6B00FC64DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DF191262B66AB6B00FC64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DF191272B66AB6B00FC64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF191292B66AB6B00FC64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sara Khalid Bin kuddah/Preview Content\"";
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarakuddah.Sara-Khalid-Bin-kuddah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF1912A2B66AB6B00FC64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sara Khalid Bin kuddah/Preview Content\"";
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarakuddah.Sara-Khalid-Bin-kuddah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DF1912C2B66AB6B00FC64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarakuddah.Sara-Khalid-Bin-kuddahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sara Khalid Bin kuddah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sara Khalid Bin kuddah";
+			};
+			name = Debug;
+		};
+		4DF1912D2B66AB6B00FC64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarakuddah.Sara-Khalid-Bin-kuddahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sara Khalid Bin kuddah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sara Khalid Bin kuddah";
+			};
+			name = Release;
+		};
+		4DF1912F2B66AB6B00FC64DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarakuddah.Sara-Khalid-Bin-kuddahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sara Khalid Bin kuddah";
+			};
+			name = Debug;
+		};
+		4DF191302B66AB6B00FC64DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3J9926XAP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarakuddah.Sara-Khalid-Bin-kuddahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sara Khalid Bin kuddah";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF190FF2B66AB6A00FC64DA /* Build configuration list for PBXProject "Sara Khalid Bin kuddah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF191262B66AB6B00FC64DA /* Debug */,
+				4DF191272B66AB6B00FC64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF191282B66AB6B00FC64DA /* Build configuration list for PBXNativeTarget "Sara Khalid Bin kuddah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF191292B66AB6B00FC64DA /* Debug */,
+				4DF1912A2B66AB6B00FC64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF1912B2B66AB6B00FC64DA /* Build configuration list for PBXNativeTarget "Sara Khalid Bin kuddahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF1912C2B66AB6B00FC64DA /* Debug */,
+				4DF1912D2B66AB6B00FC64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF1912E2B66AB6B00FC64DA /* Build configuration list for PBXNativeTarget "Sara Khalid Bin kuddahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF1912F2B66AB6B00FC64DA /* Debug */,
+				4DF191302B66AB6B00FC64DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF190FC2B66AB6A00FC64DA /* Project object */;
+}
