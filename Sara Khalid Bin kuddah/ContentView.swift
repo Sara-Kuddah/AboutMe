@@ -7,9 +7,10 @@
 
 import SwiftUI
 import Foundation
+
 struct ContentView: View {
-    
-    @Namespace var animation
+
+    @State private var viewModel = ViewModel()
     var body: some View {
         VStack {
             VStack{
@@ -43,74 +44,33 @@ struct ContentView: View {
                     VStack (alignment: .leading, spacing: 20){
                         
                             HStack{
-                                Image("Imam")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                Text("here I Started !\nFind the wonder world of Computer \nScience. Graduated with a big dreams.")
-                                    .bold()
-                                    .font(.callout)
-                                    .foregroundColor(.black)
-                                
+                                viewModel.logo(image:"Imam")
+                                viewModel.description(text: "here I Started !\nFind the wonder world of Computer \nScience. Graduated with a big dreams.")
                             }
                             HStack{
-                                Image("NZ")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                Text("Wow! \nEnglish language is not hard, Plus NZ have \nthe most welcoming people.")
-                                    .bold()
-                                    .font(.callout)
-                                    .foregroundColor(.black)
-                                
+                                viewModel.logo(image:"NZ")
+                                viewModel.description(text:"Wow! \nEnglish language is not hard, Plus NZ have \nthe most welcoming people.")
                             }
                             HStack{
-                                Image("SAB")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                Text("Explored the big process behind easy life!\nWorked with System Integration Team. \nContributing with other super teams.")
-                                    .bold()
-                                    .font(.callout)
-                                    .foregroundColor(.black)
-                                
+                                viewModel.logo(image:"SAB")
+                                viewModel.description(text:"Explored the big process behind easy life!\nWorked with System Integration Team. \nContributing with other super teams.")
                             }
                             HStack{
-                                Image("GA")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                Text("Woohoo! \nI am a Software Engineer Certified. \nJoin GA as Instructional Associate.")
-                                    .bold()
-                                    .font(.callout)
-                                    .foregroundColor(.black)
-                                
+                                viewModel.logo(image:"GA")
+                                viewModel.description(text:"Woohoo! \nI am a Software Engineer Certified. \nJoin GA as Instructional Associate.")
                             }
                             HStack{
-                                Image("LS")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                Text("I did it! \nI have been the main JavaScript Instructor, \nprepare the material and deliver the course.")
-                                    .bold()
-                                    .font(.callout)
-                                    .foregroundColor(.black)
-                                
+                                viewModel.logo(image:"LS")
+                                viewModel.description(text:"I did it! \nI have been the main JavaScript Instructor, \nprepare the material and deliver the course.")
                             }
                             HStack{
-                                Image("AppleDeveloperAcademy")
-                                    .resizable()
-                                    .frame(width: 40, height: 40)
-                                Text("Any dream can be true!. \nFind the need, Study the market \nand build your dream.")
-                                    .bold()
-                                    .font(.callout)
-                                    .foregroundColor(.black)
-                                
+                                viewModel.logo(image:"AppleDeveloperAcademy")
+                                viewModel.description(text:"Any dream can be true!. \nFind the need, Study the market \nand build your dream.")
                             }
-                        
-                        
                     }
                 }
                 Divider()
-            }
-            
-            
-            .frame(width: 500,height: 450,  alignment: .bottom)
+            }.frame(width: 500,height: 450,  alignment: .bottom)
             .background(Color.white)
             .padding(.top,-10)
             Spacer()
@@ -129,14 +89,12 @@ struct ContentView: View {
             }
         }
             
-        
     }
-
 }
 
 
 
 
 #Preview {
-    ContentView()
+        ContentView()
 }

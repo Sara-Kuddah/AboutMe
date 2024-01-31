@@ -14,6 +14,7 @@
 		4DF191192B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191182B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahTests.swift */; };
 		4DF191232B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191222B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift */; };
 		4DF191252B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191242B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift */; };
+		4DF191322B6A3AEC00FC64DA /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF191312B6A3AEC00FC64DA /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4DF1911E2B66AB6B00FC64DA /* Sara Khalid Bin kuddahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sara Khalid Bin kuddahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF191222B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sara_Khalid_Bin_kuddahUITests.swift; sourceTree = "<group>"; };
 		4DF191242B66AB6B00FC64DA /* Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sara_Khalid_Bin_kuddahUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DF191312B6A3AEC00FC64DA /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4DF191072B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift */,
 				4DF191092B66AB6A00FC64DA /* ContentView.swift */,
+				4DF191312B6A3AEC00FC64DA /* ContentView-ViewModel.swift */,
 				4DF1910B2B66AB6B00FC64DA /* Assets.xcassets */,
 				4DF1910D2B66AB6B00FC64DA /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF1910A2B66AB6A00FC64DA /* ContentView.swift in Sources */,
+				4DF191322B6A3AEC00FC64DA /* ContentView-ViewModel.swift in Sources */,
 				4DF191082B66AB6A00FC64DA /* Sara_Khalid_Bin_kuddahApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
